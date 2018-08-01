@@ -1,0 +1,25 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "homepage": "./",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "nf start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-start": "node src/electron-wait-react",
+    "react-start": "react-scripts start"
+  },
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "foreman": "^3.0.1"
+  }
+}
